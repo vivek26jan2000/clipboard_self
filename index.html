@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Inter:wght@400;500;600;700&family=Merriweather&family=Montserrat&family=Rubik:ital,wght@0,500;0,600;0,700;1,400&family=Sacramento&display=swap"
+      rel="stylesheet" />
+    <title>Simple Tailwind Starter</title>
+  </head>
+  <body>
+    <!-- hero section -->
+    <section id="hero">
+      <!-- container -->
+      <div
+        class="flex flex-col space-y-5 items-center max-h-screen p-10 md:p-20">
+        <!-- svg -->
+        <image src="/images/logo.svg" alt="company" />
+        <h1 class="text-gray-500 font-semibold text-4xl">
+          A history of everything you can copy
+        </h1>
+        <p class="font-semibold text-sm text-gray-400 max-w-xl text-center">
+          clipboard allows you to track and organize everything you can
+          copy.Insantly access your clipboard on all your devices
+        </p>
+        <!-- button container -->
+        <div
+          class="flex flex-col space-y-4 w-full md:space-y-0 md:flex-row md:space-x-4 md:justify-center">
+          <button
+            class="rounded-lg shadow-xl text-center text-white text-sm bg-strongCyan hover:opacity-50 p-2 px-4">
+            Download for Windows
+          </button>
+          <button
+            class="rounded-lg shadow-xl text-center text-white text-sm bg-lightBlue hover:opacity-50 p-2 px-4">
+            Download for IOS
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- main section -->
+    <section id="main">
+      <!-- conatiner 1 -->
+      <div class="flex flex-col items-center p-10 md:p-20">
+        <h1 class="text-gray-500 font-semibold text-3xl">
+          Keep tract of your snippets
+        </h1>
+        <p
+          class="font-semibold text-xs leading-5 text-gray-400 max-w-md text-center mt-4">
+          clipboard instanly stores any item you can copy in the cloud,meaning
+          you can acess your snippets immediately on all your devices.Our
+          Windows and IOS apps will help you organise everything.
+        </p>
+        <div
+          class="flex flex-col items-center space-y-6 md:flex-row md:space-y-0 md:space-x-16 pt-10">
+          <div>
+            <image
+              src="images/image-computer.png"
+              alt=""
+              class="object-fit w-60 md:w-96" />
+          </div>
+          <div class="flex flex-col space-y-5">
+            <div>
+              <h3 class="font-bold text-md text-gray-600">Qiuck Search</h3>
+              <p class="text-sm font-medium text-gray-400">
+                Easily search your snippets by content category,category,web
+                address,application,and more.
+              </p>
+            </div>
+            <div>
+              <h3 class="font-bold text-md text-gray-600">iCloud Sync</h3>
+              <p class="text-sm font-medium text-gray-400">
+                Instanly saves and sync snippets across all your devices.
+              </p>
+            </div>
+            <div>
+              <h3 class="font-bold text-md text-gray-600">
+                Completely History
+              </h3>
+              <p class="text-sm font-medium text-gray-400">
+                Retrieve any snippets from the first moment you started using
+                the app.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- container 2 -->
+      <div class="flex flex-col items-center p-10 md:p-20">
+        <h1 class="text-gray-500 font-semibold text-3xl">
+          Access Clipboard anywhere
+        </h1>
+        <p
+          class="font-semibold text-xs leading-5 text-gray-400 max-w-md text-center mt-4">
+          Whether you're on the go,or at your computer,you can access all your
+          clipboard snippets in few simple clicks.
+        </p>
+        <div class="mt-10">
+          <image
+            src="/images/image-devices.png"
+            class="object-fit w-60 md:w-full" />
+        </div>
+      </div>
+    </section>
+
+    <!-- feature section -->
+    <section id="feature">
+      <!-- container -->
+      <div class="flex flex-col items-center p-6 md:p-20">
+        <h1 class="text-gray-500 font-semibold text-3xl">
+          Supercharge your workflow
+        </h1>
+        <p
+          class="font-semibold text-xs leading-5 text-gray-400 max-w-md text-center mt-4">
+          We've got the tools to boast your productivity.
+        </p>
+        <!-- feature -->
+        <div
+          class="flex flex-col space-y-5 items-center justify-center md:space-y-0 md:space-x-5 md:flex-row mt-10">
+          <!-- first -->
+          <div class="flex flex-col space-y-4 items-center max-w-sm">
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-checklist"
+                width="44"
+                height="44"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="#9e9e9e"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M9.615 20h-2.615a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8" />
+                <path d="M14 19l2 2l4 -4" />
+                <path d="M9 8h4" />
+                <path d="M9 12h2" />
+              </svg>
+            </div>
+            <h3 class="font-bold text-md text-center text-gray-600">
+              Create blacklists
+            </h3>
+            <p class="text-sm text-center font-medium text-gray-400">
+              Easily search your snippets by content category,category,web
+              address,application,and more.
+            </p>
+          </div>
+          <!-- second  -->
+          <div class="flex flex-col space-y-4 items-center max-w-sm">
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-a-b"
+                width="44"
+                height="44"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="#9e9e9e"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M3 16v-5.5a2.5 2.5 0 0 1 5 0v5.5m0 -4h-5" />
+                <path d="M12 6l0 12" />
+                <path d="M16 16v-8h3a2 2 0 0 1 0 4h-3m3 0a2 2 0 0 1 0 4h-3" />
+              </svg>
+            </div>
+            <h3 class="font-bold text-md text-center text-gray-600">
+              Plain text snippets
+            </h3>
+            <p class="text-sm text-center font-medium text-gray-400">
+              Remove unwanted formatting from copied text for a consistent look.
+            </p>
+          </div>
+          <!-- third -->
+          <div class="flex flex-col space-y-4 items-center max-w-sm">
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-eye"
+                width="44"
+                height="44"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="#9e9e9e"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+                <path
+                  d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6" />
+              </svg>
+            </div>
+            <h3 class="font-bold text-md text-center text-gray-600">
+              Sneak preview
+            </h3>
+            <p class="text-sm text-center font-medium text-gray-400">
+              Quick preview of all snippets on your clipborad for easy access.
+            </p>
+          </div>
+        </div>
+
+        <!-- brands -->
+        <div
+          class="flex flex-col space-y-12 items-center md:justify-around md:space-y-0 md:space-x-7 md:flex-row mt-24 md:w-full px-6">
+          <div>
+            <image src="./images/logo-google.png" class="object-fit" />
+          </div>
+          <div>
+            <image src="./images/logo-ibm.png" class="object-fit" />
+          </div>
+          <div>
+            <image src="./images/logo-microsoft.png" class="object-fit" />
+          </div>
+          <div>
+            <image src="./images/logo-hp.png" class="object-fit" />
+          </div>
+          <div>
+            <image src="./images/logo-vector-graphics.png" class="object-fit" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- call to action section -->
+    <section id="callToAction">
+      <!-- container -->
+      <div class="p-6 md:p-20 flex flex-col items-center">
+        <h1 class="text-gray-500 font-semibold text-3xl">
+          Clipboard for Windows and IOS
+        </h1>
+        <p
+          class="font-semibold text-xs leading-5 text-gray-400 max-w-md text-center mt-4">
+          Available for free on the App Store. Download for Windows or IOS ,
+          sync with iCloud and you're ready to start adding to your clipboard.
+        </p>
+
+        <!-- button container -->
+        <div
+          class="flex flex-col space-y-4 w-full md:space-y-0 md:flex-row md:space-x-4 md:justify-center mt-5">
+          <button
+            class="rounded-lg shadow-xl text-center text-white text-sm bg-strongCyan hover:opacity-50 p-2 px-4">
+            Download for Windows
+          </button>
+          <button
+            class="rounded-lg shadow-xl text-center text-white text-sm bg-lightBlue hover:opacity-50 p-2 px-4">
+            Download for IOS
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <!-- constainer -->
+      <div
+        class="p-6 md:p-10 grid grid-cols-1 gap-y-8 md:grid-cols-5 bg-gray-200">
+        <div class="flex justify-center">
+          <image src="images/logo.svg" class="object-fit" />
+        </div>
+        <div class="flex items-center space-y-6 flex-col">
+          <a
+            href="/"
+            class="font-light text-sm text-gray-500 hover:text-gray-800"
+            >FAQs</a
+          >
+          <a
+            href="/"
+            class="font-light text-sm text-gray-500 hover:text-gray-800"
+            >Contact Us</a
+          >
+        </div>
+        <div class="flex items-center space-y-6 flex-col">
+          <a
+            href="/"
+            class="font-light text-sm text-gray-500 hover:text-gray-800"
+            >Privacy Policy</a
+          >
+          <a
+            href="/"
+            class="font-light text-sm text-gray-500 hover:text-gray-800"
+            >Press Kit</a
+          >
+        </div>
+        <div class="flex items-center space-y-6 flex-col">
+          <a
+            href="/"
+            class="font-light text-sm text-gray-500 hover:text-gray-800"
+            >Install Quide</a
+          >
+          <a
+            href="/"
+            class="font-light text-sm text-gray-500 hover:text-gray-800"
+            >Contact Us</a
+          >
+        </div>
+        <div class="flex justify-center items-start space-x-4">
+          <div>
+            <image
+              src="/images/icon-facebook.svg"
+              class="hover:opacity-40 hover:scale-150 hover:cursor-pointer" />
+          </div>
+          <div>
+            <image
+              src="/images/icon-instagram.svg"
+              class="hover:opacity-40 hover:scale-150 hover:cursor-pointer" />
+          </div>
+          <div>
+            <image
+              src="/images/icon-twitter.svg"
+              class="hover:opacity-40 hover:scale-150 hover:cursor-pointer" />
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
